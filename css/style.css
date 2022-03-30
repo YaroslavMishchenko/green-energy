@@ -1,0 +1,150 @@
+/*
+#0C090D - black text, header
+#ecfaf5 - white text
+#c7eee049 - gray background
+
+*/
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #ecfaf5;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px #0C090D;
+    padding-top: 5rem;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #0C090D;
+    text-decoration: underline;
+
+    font-size: 2rem;
+}
+
+p,
+ul,
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+body ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+.controls ul li button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.controls ul li {
+    list-style: none
+}
+
+.dynamic-content {
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #c7eee049;
+    padding-bottom: 1rem;
+}
+
+.head-img {
+    background-image: url(../img/silhouettes-of-wind-turbines.jpg);
+    height: 15rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.controls button {
+
+    width: 400px;
+
+    height: 50px;
+}
+
+.controls button:hover {
+
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+}
+
+
+img {
+
+    max-width: 100%;
+}
+
+.dynamic-content {
+
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+@media only screen and (min-width: 60rem) {
+
+
+    .dynamic-content {
+
+        max-width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        font-family: 'Roboto Slab', serif;
+        color: #0C090D;
+        text-decoration: underline;
+
+        font-size: 3rem;
+    }
+
+
+    ul,
+    li {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    p {
+
+        font-size: 1.2rem;
+    }
+
+    .dynamic-content h2 {
+        text-align: left;
+
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .dynamic-content img {
+        width: 300px;
+        height: 250px;
+        float: left;
+        clear: both;
+        margin-right: 1rem;
+    }
+
+    .dynamic-content p {
+        text-align: left;
+        margin: 1rem;
+    }
+}
